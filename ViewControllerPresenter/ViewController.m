@@ -46,6 +46,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.classNameText.delegate = self;
+    self.classNameText.text = @"MKMapView";
 #if TARGETOSMACCATALYST
     dlopen("/System/iOSSupport/System/Library/PrivateFrameworks/AvatarUI.framework/AvatarUI", RTLD_LAZY);
     dlopen("/System/iOSSupport/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices", RTLD_LAZY);

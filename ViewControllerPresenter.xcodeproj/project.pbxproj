@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		229BBEBD262C6F6D001C75D8 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229BBEBC262C6F6D001C75D8 /* IntentsUI.framework */; };
+		229BBEBD262C6F6D001C75D8 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229BBEBC262C6F6D001C75D8 /* IntentsUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		22A6993E262B18E90064E350 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A6993D262B18E90064E350 /* AppDelegate.m */; };
 		22A69941262B18E90064E350 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A69940262B18E90064E350 /* SceneDelegate.m */; };
 		22A69944262B18E90064E350 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A69943262B18E90064E350 /* ViewController.m */; };
@@ -15,28 +15,28 @@
 		22A69949262B18EA0064E350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A69948262B18EA0064E350 /* Assets.xcassets */; };
 		22A6994C262B18EA0064E350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A6994A262B18EA0064E350 /* LaunchScreen.storyboard */; };
 		22A6994F262B18EA0064E350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A6994E262B18EA0064E350 /* main.m */; };
-		22BA1C7D262B5D7B00F6C766 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C7C262B5D7A00F6C766 /* ARKit.framework */; };
-		22BA1C7F262B5D8000F6C766 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C7E262B5D8000F6C766 /* AVKit.framework */; };
-		22BA1C81262B5D8600F6C766 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C80262B5D8600F6C766 /* ContactsUI.framework */; };
-		22BA1C83262B5D8C00F6C766 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C82262B5D8C00F6C766 /* CoreAudioKit.framework */; };
-		22BA1C85262B5D9E00F6C766 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C84262B5D9E00F6C766 /* EventKitUI.framework */; };
-		22BA1C87262B5DA400F6C766 /* HealthKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C86262B5DA400F6C766 /* HealthKitUI.framework */; platformFilter = ios; };
-		22BA1C89262B5DAA00F6C766 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C88262B5DAA00F6C766 /* MapKit.framework */; };
-		22BA1C8B262B5DB100F6C766 /* LinkPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C8A262B5DB100F6C766 /* LinkPresentation.framework */; };
-		22BA1C8D262B5DB800F6C766 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C8C262B5DB800F6C766 /* MessageUI.framework */; };
-		22BA1C8F262B5DBD00F6C766 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C8E262B5DBD00F6C766 /* PassKit.framework */; };
-		22BA1C91262B5DC300F6C766 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C90262B5DC300F6C766 /* PDFKit.framework */; };
-		22BA1C93262B5DC900F6C766 /* PencilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C92262B5DC900F6C766 /* PencilKit.framework */; };
-		22BA1C95262B5DCF00F6C766 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C94262B5DCF00F6C766 /* PhotosUI.framework */; };
-		22BA1C97262B5DD700F6C766 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C96262B5DD700F6C766 /* QuickLook.framework */; };
-		22BA1C99262B5DDD00F6C766 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C98262B5DDD00F6C766 /* SafariServices.framework */; };
-		22BA1C9B262B5DE200F6C766 /* ScreenTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C9A262B5DE100F6C766 /* ScreenTime.framework */; };
-		22BA1C9D262B5DE800F6C766 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C9C262B5DE800F6C766 /* Social.framework */; };
-		22BA1C9F262B5DEE00F6C766 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C9E262B5DEE00F6C766 /* Twitter.framework */; };
-		22BA1CA1262B5DF400F6C766 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1CA0262B5DF400F6C766 /* WebKit.framework */; };
-		22BA1CA3262B5DFA00F6C766 /* VisionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1CA2262B5DFA00F6C766 /* VisionKit.framework */; };
-		22BA1CA5262B5E4B00F6C766 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1CA4262B5E4B00F6C766 /* ReplayKit.framework */; };
-		22C67078262B696600327FAF /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C67077262B696600327FAF /* AuthenticationServices.framework */; };
+		22BA1C7D262B5D7B00F6C766 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C7C262B5D7A00F6C766 /* ARKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C7F262B5D8000F6C766 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C7E262B5D8000F6C766 /* AVKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C81262B5D8600F6C766 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C80262B5D8600F6C766 /* ContactsUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C83262B5D8C00F6C766 /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C82262B5D8C00F6C766 /* CoreAudioKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C85262B5D9E00F6C766 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C84262B5D9E00F6C766 /* EventKitUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C87262B5DA400F6C766 /* HealthKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C86262B5DA400F6C766 /* HealthKitUI.framework */; platformFilter = ios; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C89262B5DAA00F6C766 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C88262B5DAA00F6C766 /* MapKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C8B262B5DB100F6C766 /* LinkPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C8A262B5DB100F6C766 /* LinkPresentation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C8D262B5DB800F6C766 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C8C262B5DB800F6C766 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C8F262B5DBD00F6C766 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C8E262B5DBD00F6C766 /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C91262B5DC300F6C766 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C90262B5DC300F6C766 /* PDFKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C93262B5DC900F6C766 /* PencilKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C92262B5DC900F6C766 /* PencilKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C95262B5DCF00F6C766 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C94262B5DCF00F6C766 /* PhotosUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C97262B5DD700F6C766 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C96262B5DD700F6C766 /* QuickLook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C99262B5DDD00F6C766 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C98262B5DDD00F6C766 /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C9B262B5DE200F6C766 /* ScreenTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C9A262B5DE100F6C766 /* ScreenTime.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C9D262B5DE800F6C766 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C9C262B5DE800F6C766 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1C9F262B5DEE00F6C766 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1C9E262B5DEE00F6C766 /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1CA1262B5DF400F6C766 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1CA0262B5DF400F6C766 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1CA3262B5DFA00F6C766 /* VisionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1CA2262B5DFA00F6C766 /* VisionKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22BA1CA5262B5E4B00F6C766 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA1CA4262B5E4B00F6C766 /* ReplayKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22C67078262B696600327FAF /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C67077262B696600327FAF /* AuthenticationServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

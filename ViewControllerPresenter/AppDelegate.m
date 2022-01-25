@@ -17,16 +17,31 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    NSLog(@"[NSWK] Application did finish launching.");
+    
     _window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     
+    NSLog(@"[NSWK] Initialized window.");
+    
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    NSLog(@"[NSWK] Initialized storyboard.");
+    
     UIViewController *controller = [storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    
+    NSLog(@"[NSWK] Initialized main view controller.");
     
     controller.view.backgroundColor = UIColor.systemRedColor;
     
+    NSLog(@"[NSWK] Set background color.");
+    
     [_window setRootViewController:controller];
     
+    NSLog(@"[NSWK] Set window's root VC.");
+    
     [_window makeKeyAndVisible];
+    
+    NSLog(@"[NSWK] Hooray! The window should be visible now.");
     
     return YES;
 }

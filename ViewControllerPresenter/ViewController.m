@@ -7,29 +7,7 @@
 
 #import "ViewController.h"
 
-@import ARKit;
-@import AuthenticationServices;
-@import AVKit;
-@import ContactsUI;
-@import CoreAudioKit;
-@import EventKitUI;
-@import HealthKitUI;
-@import IntentsUI;
 @import MapKit;
-@import LinkPresentation;
-@import MessageUI;
-@import PassKit;
-@import PDFKit;
-@import PencilKit;
-@import PhotosUI;
-@import QuickLook;
-@import ReplayKit;
-@import SafariServices;
-@import ScreenTime;
-@import Social;
-@import Twitter;
-@import WebKit;
-@import VisionKit;
 
 #import <objc/runtime.h>
 #import <dlfcn.h>
@@ -47,13 +25,7 @@
     // Do any additional setup after loading the view.
     self.classNameText.delegate = self;
     self.classNameText.text = @"MKMapView";
-#if TARGETOSMACCATALYST
-    dlopen("/System/iOSSupport/System/Library/PrivateFrameworks/AvatarUI.framework/AvatarUI", RTLD_LAZY);
-    dlopen("/System/iOSSupport/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices", RTLD_LAZY);
-#else
-    dlopen("/System/Library/PrivateFrameworks/AvatarUI.framework/AvatarUI", RTLD_LAZY);
-    dlopen("/System/Library/PrivateFrameworks/SpringBoardUIServices.framework/SpringBoardUIServices", RTLD_LAZY);
-#endif
+    NSLog(@"[NSWK] Main view loaded.");
 }
 
 - (IBAction)presentClassBtn:(id)sender {
